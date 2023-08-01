@@ -50,11 +50,19 @@ export class AppComponent implements OnInit {
     });
   }
 
+  // ngAfterViewInit(){
+  //   // this.dataSource = new MatTableDataSource();
+  //   // this.dataSource.paginator = this.paginator;
+  // }
+
   deletarUsuario(id: number) {
     if (confirm('Você deseja mesmo excluir esse usuário? Está ação é irreversível'))
       this.service.deleteUsuario(id).subscribe({
         next: (res) => {
           this.coreService.openSnackBar('Usuário deletado com sucesso!', 'Pronto')
+          setTimeout(() => {
+            window.location.reload()
+          }, 2501);
         },
         error: console.log
       })

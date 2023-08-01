@@ -1,21 +1,4 @@
 {
-  "posts": [
-    {
-      "id": 1,
-      "title": "json-server",
-      "author": "typicode"
-    }
-  ],
-  "comments": [
-    {
-      "id": 1,
-      "body": "some comment",
-      "postId": 1
-    }
-  ],
-  "profile": {
-    "name": "typicode"
-  },
   "users": [
     {
       "nome": "João Victor",
@@ -30,52 +13,16 @@
       "id": 1
     },
     {
-      "nome": "Teste",
-      "sobrenome": "Testes Finais",
-      "email": "testes@teste.testes",
-      "dataNasc": "1994-11-05T02:00:00.000Z",
-      "genero": "Masculino",
-      "educacao": "Superior Completo",
-      "empresa": "Taz LTDA",
-      "experiencia": 5,
-      "cidade": "Pato Branco",
-      "id": 2
-    },
-    {
-      "nome": "Deu",
-      "sobrenome": "Boa",
-      "email": "finalmente@deucerto",
-      "dataNasc": "1998-06-12T03:00:00.000Z",
-      "genero": "Feminino",
-      "educacao": "Superior Completo",
-      "empresa": "AAAAAA",
-      "experiencia": 4,
-      "cidade": "Coronel Vivida",
-      "id": 3
-    },
-    {
-      "nome": "Ultimo",
-      "sobrenome": "Teste",
-      "email": "Teste@tesn",
-      "dataNasc": "2023-07-04T03:00:00.000Z",
-      "genero": "Masculino",
-      "educacao": "Superior Incompleto",
-      "empresa": "asdas",
-      "experiencia": 21,
-      "cidade": "swdasd",
-      "id": 5
-    },
-    {
-      "nome": "taz",
+      "nome": "Taz",
       "sobrenome": "Mania",
-      "email": "tazzzz@gmail.com",
-      "dataNasc": "2023-07-03T03:00:00.000Z",
+      "email": "TAZINHOZ1K4@gmail.com",
+      "dataNasc": "1992-02-28T03:00:00.000Z",
       "genero": "Masculino",
       "educacao": "Pós-Graduação",
-      "empresa": "Taz  LTDA",
-      "experiencia": 50,
-      "cidade": "Pato Branco",
-      "id": 6
+      "empresa": "TAZ LTDA",
+      "experiencia": 15,
+      "cidade": "Tazlandia",
+      "id": 2
     }
   ]
 }

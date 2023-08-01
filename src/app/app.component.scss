@@ -3,3 +3,13 @@
 }
 
 
+@media screen and (max-width: 600px) {
+    *{
+        overflow-x: auto;
+
+    }   
+
+    .mat-mdc-paginator-container{
+        display: flex;
+    }
+}

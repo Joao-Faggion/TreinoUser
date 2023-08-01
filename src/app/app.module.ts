@@ -9,10 +9,11 @@ import { AddUserComponent } from './add-edit-user/add-user.component';
 import { ReactiveFormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 
+
 @NgModule({
   declarations: [
     AppComponent,
-    AddUserComponent,
+    AddUserComponent
   ],
   imports: [
     BrowserModule,
